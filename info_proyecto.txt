@@ -21,4 +21,5 @@ Cada proyecto debe incluir un documento con la descripción de cada una de las f
 
 Defensa del Proyecto:
 
-Se sortearán los equipos para la defensa. Cada equipo tendrá 20 minutos para la presentación de su Proyecto donde se deberán exponer las fases de su Proyecto. El orden de presentación de los participantes del equipo será definido por la docente. Se entregará un archivo para que el programa devuelva los resultados esperados.
+Se sortearán los equipos para la defensa. Cada equipo tendrá 20 minutos para la presentación de su Proyecto donde se deberán exponer las fases de su Proyecto. 
+El orden de presentación de los participantes del equipo será definido por la docente. Se entregará un archivo para que el programa devuelva los resultados esperados.
