@@ -1,7 +1,0 @@
-Hola grupo!!!
-Saludos
-Análisis léxico, sintáctico y semántico del siguiente problema: 
-
-Calculadora aritmética para sumas, restas, multiplicación y división. Debe leer un archivo de texto que contendrá cadenas del tipo: 
-
-a = suma 54 6, a = resta 3 8, a = multiplica 8 9, a = divide 8 4
