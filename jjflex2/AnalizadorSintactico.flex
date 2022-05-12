@@ -1,7 +1,7 @@
 /* Sección de declaraciones de JFlex */
 %%
 %public
-%class AnalizadorLexico
+%class AnalizadorSintactico
 %{
  
  /* Código personalizado */
@@ -37,7 +37,7 @@ Dividir = {Letra}{Espacio}{Simbolo}{Espacio}"dividir"{Espacio}{Numero}{Espacio}{
 Digito = [0-9]
 Numero = {Digito} {Digito}* {Decimal}?
 Letra = [A-Za-z]
-Simbolo = "*"|"+"|"-"|"/"|"#"|"="
+Simbolo = "="
 Espacio = " "
 SaltoDeLinea = \n|\r|\r\n
 Palabra = {Letra} {Letra}*

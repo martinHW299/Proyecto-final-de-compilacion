@@ -1,4 +1,4 @@
 a = suma 23 3
 b = resta 23 1
 c = multiplicar 2 32.33
-d = dividir 12322 321.3
+d = dividir 0 0

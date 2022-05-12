@@ -61,11 +61,11 @@ public class AnalizadorLexico {
   private static final int [] ZZ_CMAP_BLOCKS = zzUnpackcmap_blocks();
 
   private static final String ZZ_CMAP_BLOCKS_PACKED_0 =
-    "\12\0\1\1\2\0\1\2\22\0\1\3\2\0\1\4"+
-    "\6\0\2\4\1\0\1\4\1\5\1\4\12\6\3\0"+
-    "\1\4\3\0\32\7\6\0\1\10\1\7\1\11\1\12"+
-    "\1\13\3\7\1\14\2\7\1\15\1\16\2\7\1\17"+
-    "\1\7\1\20\1\21\1\22\1\23\1\24\4\7\u0185\0";
+    "\12\0\1\1\2\0\1\2\22\0\1\3\15\0\1\4"+
+    "\1\0\12\5\3\0\1\6\43\0\1\7\1\10\1\11"+
+    "\1\12\1\13\3\10\1\14\2\10\1\15\1\16\2\10"+
+    "\1\17\1\10\1\20\1\21\1\22\1\23\1\24\4\10"+
+    "\u0185\0";
 
   private static int [] zzUnpackcmap_blocks() {
     int [] result = new int[512];
@@ -92,12 +92,11 @@ public class AnalizadorLexico {
   private static final int [] ZZ_ACTION = zzUnpackAction();
 
   private static final String ZZ_ACTION_PACKED_0 =
-    "\1\0\2\1\1\2\1\3\1\4\1\3\1\0\1\4"+
-    "\43\0\1\5\2\0\1\6\1\5\3\0\1\6\1\7"+
-    "\1\0\1\7\4\0\2\10";
+    "\1\0\2\1\1\2\1\3\1\4\5\5\1\3\13\0"+
+    "\1\6\2\0\1\7\2\0\1\10\4\0\1\11";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[62];
+    int [] result = new int[35];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -122,17 +121,14 @@ public class AnalizadorLexico {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
-    "\0\0\0\25\0\52\0\25\0\77\0\124\0\151\0\176"+
-    "\0\223\0\250\0\275\0\322\0\347\0\374\0\u0111\0\u0126"+
-    "\0\u013b\0\u0150\0\u0165\0\u017a\0\u018f\0\u01a4\0\u01b9\0\u01ce"+
-    "\0\u01e3\0\u01f8\0\u020d\0\u0222\0\u0237\0\u024c\0\u0261\0\u0276"+
-    "\0\u028b\0\u02a0\0\u02b5\0\u02ca\0\u02df\0\u02f4\0\u0309\0\u031e"+
-    "\0\u0333\0\u0348\0\u035d\0\u0372\0\u0387\0\u039c\0\u03b1\0\u03c6"+
-    "\0\u03db\0\u03f0\0\u0405\0\u041a\0\u042f\0\u0444\0\u0459\0\u046e"+
-    "\0\u0483\0\u0498\0\u04ad\0\u04c2\0\u04d7\0\u04ec";
+    "\0\0\0\25\0\52\0\25\0\77\0\25\0\25\0\124"+
+    "\0\151\0\176\0\223\0\250\0\275\0\322\0\347\0\374"+
+    "\0\u0111\0\u0126\0\u013b\0\u0150\0\u0165\0\u017a\0\u018f\0\25"+
+    "\0\u01a4\0\u01b9\0\25\0\u01ce\0\u01e3\0\25\0\u01f8\0\u020d"+
+    "\0\u0222\0\u0237\0\25";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[62];
+    int [] result = new int[35];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -155,29 +151,18 @@ public class AnalizadorLexico {
   private static final int [] ZZ_TRANS = zzUnpackTrans();
 
   private static final String ZZ_TRANS_PACKED_0 =
-    "\1\0\1\2\1\3\1\0\1\4\1\0\1\5\16\6"+
-    "\26\0\1\2\30\0\1\7\1\5\21\0\1\10\3\0"+
-    "\16\11\6\0\1\7\22\0\1\12\27\0\16\11\3\0"+
-    "\1\13\33\0\1\14\3\0\1\15\1\0\1\16\1\17"+
-    "\17\0\1\20\33\0\1\21\14\0\1\22\34\0\1\23"+
-    "\25\0\1\24\15\0\1\25\30\0\1\26\21\0\1\27"+
-    "\22\0\1\30\32\0\1\31\24\0\1\32\12\0\1\33"+
-    "\26\0\1\34\26\0\1\35\20\0\1\36\17\0\1\37"+
-    "\35\0\1\40\27\0\1\41\10\0\1\42\27\0\1\43"+
-    "\36\0\1\44\21\0\1\45\15\0\1\46\21\0\1\47"+
-    "\1\0\1\50\1\43\21\0\1\51\35\0\1\52\13\0"+
-    "\1\53\1\0\1\54\1\46\24\0\1\55\21\0\1\47"+
-    "\2\0\1\50\24\0\1\56\27\0\1\57\21\0\1\60"+
-    "\21\0\1\53\2\0\1\54\23\0\1\61\1\55\21\0"+
-    "\1\62\1\0\1\63\1\56\26\0\1\64\21\0\1\65"+
-    "\1\60\24\0\1\61\24\0\1\66\21\0\1\62\2\0"+
-    "\1\63\36\0\1\67\12\0\1\65\23\0\1\70\1\66"+
-    "\21\0\1\71\27\0\1\70\24\0\1\72\21\0\1\73"+
-    "\1\0\1\74\1\72\24\0\1\75\21\0\1\73\2\0"+
-    "\1\74\23\0\1\76\1\75\24\0\1\76\16\0";
+    "\1\0\1\2\1\3\1\4\1\0\1\5\1\6\3\7"+
+    "\1\10\3\7\1\11\1\7\1\12\1\13\3\7\26\0"+
+    "\1\2\27\0\1\14\1\5\33\0\1\15\33\0\1\16"+
+    "\14\0\1\17\34\0\1\20\6\0\1\14\43\0\1\21"+
+    "\15\0\1\22\30\0\1\23\21\0\1\24\22\0\1\25"+
+    "\32\0\1\26\24\0\1\27\11\0\1\30\27\0\1\31"+
+    "\26\0\1\32\17\0\1\33\31\0\1\34\27\0\1\35"+
+    "\25\0\1\36\21\0\1\37\23\0\1\40\21\0\1\41"+
+    "\22\0\1\42\35\0\1\43\4\0";
 
   private static int [] zzUnpackTrans() {
-    int [] result = new int[1281];
+    int [] result = new int[588];
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -220,12 +205,11 @@ public class AnalizadorLexico {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
-    "\1\0\1\11\1\1\1\11\3\1\1\0\1\1\43\0"+
-    "\1\1\2\0\2\1\3\0\2\1\1\0\1\1\4\0"+
-    "\2\1";
+    "\1\0\1\11\1\1\1\11\1\1\2\11\5\1\13\0"+
+    "\1\11\2\0\1\11\2\0\1\11\4\0\1\11";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[62];
+    int [] result = new int[35];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -675,56 +659,61 @@ public class AnalizadorLexico {
  return t;
             }
             // fall through
-          case 9: break;
+          case 10: break;
           case 2:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "SIMBOLO");
- this._existenTokens = true;
- return t;
+            { // Ignorar cuando se ingrese un espacio
             }
             // fall through
-          case 10: break;
+          case 11: break;
           case 3:
             { TokenPersonalizado t = new TokenPersonalizado(yytext(), "NUMERO");
  this._existenTokens = true;
  return t;
             }
             // fall through
-          case 11: break;
-          case 4:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "PALABRA");
- this._existenTokens = true;
- return t;
-            }
-            // fall through
           case 12: break;
-          case 5:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "SUMA");
+          case 4:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "IGUALDAD");
  this._existenTokens = true;
  return t;
             }
             // fall through
           case 13: break;
-          case 6:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "RESTA");
+          case 5:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "VARIABLE");
  this._existenTokens = true;
  return t;
             }
             // fall through
           case 14: break;
-          case 7:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "DIVIDIR");
+          case 6:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "SUMA");
  this._existenTokens = true;
  return t;
             }
             // fall through
           case 15: break;
-          case 8:
-            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "MULTIPLICAR");
+          case 7:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "RESTA");
  this._existenTokens = true;
  return t;
             }
             // fall through
           case 16: break;
+          case 8:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "DIVIDIR");
+ this._existenTokens = true;
+ return t;
+            }
+            // fall through
+          case 17: break;
+          case 9:
+            { TokenPersonalizado t = new TokenPersonalizado(yytext(), "MULTIPLICAR");
+ this._existenTokens = true;
+ return t;
+            }
+            // fall through
+          case 18: break;
           default:
             zzScanError(ZZ_NO_MATCH);
         }
